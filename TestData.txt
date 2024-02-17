@@ -1,0 +1,6 @@
+Number = int(input("Enter any no."))
+fib = [0,1]
+for i in range(2,Number+1):
+    new_no = fib [-1] + fib [-2]
+    fib.append(new_no)
+print("Fibonaccie series is:", fib)
