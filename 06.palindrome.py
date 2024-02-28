@@ -29,7 +29,7 @@
 # string = input("Enter the string ")
 # Palindrom(string)
 
-n = "malayalam"
+n = "Malayalam"
 n = n.lower()
 rev = n[::-1]
 if n == rev:

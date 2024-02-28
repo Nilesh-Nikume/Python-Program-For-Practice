@@ -20,8 +20,27 @@ output : str= laxmi is name my '''
 for eq. str = "Nilesh" output hseliN'''
 
 # Metho 1 by using slicing method
-str = input("Enter your Name: ") # Take inpute from user
-str = str.upper() #all character from string in upper case
-print(f"Hello '{str}'")
-revers_string = str[::-1]
-print("After revers", revers_string)
+# str = input("Enter your Name: ") # Take inpute from user
+# str = str.upper() #all character from string in upper case
+# print(f"Hello '{str}'")
+# revers_string = str[::-1]
+# print("After revers", revers_string)
+
+#Method 2 By using for loop
+
+# def ReversString(originalstring):
+#     ReString = ''
+#     for char in originalstring:
+#         ReString = char + originalstring
+#     return ReString
+# originalstring = input("Enter the string: ").upper()
+# result = ReversString(originalstring)
+# print(result)
+
+# str = "nilesh"
+# str = str.upper()
+# rev = ""
+# for i in str:
+#     rev = i + rev
+# print(rev)
+

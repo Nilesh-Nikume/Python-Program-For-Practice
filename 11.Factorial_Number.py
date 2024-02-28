@@ -16,7 +16,7 @@ fact(Number)
 # Number = int(input("Enter the Number: "))
 # fact_no = math.factorial(Number)
 # print(fact_no)
-# # fibo_No = math.fibonaccie(Number)
+# fibo_No = math.fibonaccie(Number)
 
 
 
