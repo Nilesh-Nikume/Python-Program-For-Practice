@@ -11,4 +11,4 @@ country_capital_dict = {
     "Canada": "Ottawa" }
 keys, values = sep_keys_values(country_capital_dict)
 print("Keys in dict is",keys)
-print("values indict is :", values)
+print("values in dict is :", values)
