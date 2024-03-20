@@ -16,10 +16,12 @@
 # zeros = [num for num in list01 if num == 0]
 # print(zeros)
 #
-
 # # Combine non-zero elements and zeros
 # result_list = non_zeros + zeros
-
+#
 # print(result_list)
+
+list01 = range(1,100)
+list01
 
 
