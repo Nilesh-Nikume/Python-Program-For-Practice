@@ -10,6 +10,7 @@ print(driver.title)
 
 driver.find_element(By.XPATH, "//*[normalize-space()='Click Here']").click()
 select_window = driver.window_handles
+print(type(select_window))
 
 
 driver.switch_to.window(select_window[1])

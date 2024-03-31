@@ -16,7 +16,15 @@ fact(Number)
 # Number = int(input("Enter the Number: "))
 # fact_no = math.factorial(Number)
 # print(fact_no)
-# fibo_No = math.fibonaccie(Number)
+# fibo_No = math.fibonacci(Number)
+# print(fibo_No)
 
+# by using map() function
+import math
+numbers = [1,2,3,4,5]
+def factorial(numbers):
+    return math.factorial(numbers)
+result = list(map(factorial,numbers))
+print(result)
 
 

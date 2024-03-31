@@ -33,11 +33,6 @@ n = "Malayalam"
 n = n.lower()
 rev = n[::-1]
 if n == rev:
-
-
-
-
-
-    print("this is palindrom no.")
+    print("this is palindrome String")
 else:
-    print("this is not palindrom.")
+    print("This is not Palindrome String")
